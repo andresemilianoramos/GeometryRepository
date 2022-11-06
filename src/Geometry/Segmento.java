@@ -11,6 +11,8 @@ package Geometry;
 
  */
 
+import java.awt.*;
+
 public class Segmento { //Create the class Segment which has 2 points
   public int startPoint; //// (startPoint
   public int endPoint; //and endPoint)
@@ -20,7 +22,6 @@ public class Segmento { //Create the class Segment which has 2 points
   public int getEndPoint() {return endPoint;}
   public int getStartPoint() {return startPoint;}
   public void setOffset(int offX , int offY){ startPoint += + offX; endPoint += + offY;}
-
 
   public double calcularDistancia(Segmento p){
     int startPoint1=startPoint;
@@ -35,4 +36,5 @@ public class Segmento { //Create the class Segment which has 2 points
   public String toString() {
     return '('+ startPoint + "," + endPoint + ')';
   }
+
 }
