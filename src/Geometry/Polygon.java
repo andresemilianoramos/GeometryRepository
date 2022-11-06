@@ -1,6 +1,5 @@
 package Geometry;
 
-
 public class Polygon {
 
     private int x;
@@ -11,10 +10,7 @@ public class Polygon {
                 x2= point.getX(),
                 y2= point.getY();
 
-    double distancia = Math.sqrt(Math.pow(x2-x1,2)
-            +Math.pow(y2-y1,2));
-
-        return distancia;
+        return Math.sqrt(Math.pow(x2-x1,2) +Math.pow(y2-y1,2));
     }
     // setter
     public void setX(int x) {this.x = x;}

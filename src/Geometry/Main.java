@@ -1,5 +1,4 @@
 package Geometry;
-
 public class Main {
     public static void main(String[] args) {
         Segmento p = new Segmento();
@@ -15,10 +14,9 @@ public class Main {
        System.out.println("La 1 coordenada es: "+p.getStartPoint()+","+p.getEndPoint());
        System.out.println("La 2 coordenada es: "+p2.getStartPoint()+","+p2.getEndPoint());
 
-        System.out.println("");
+        System.out.println();
         System.out.println("(" +p.startPoint+","+p.endPoint+") - ("+p2.startPoint+','+ p2.endPoint+')');
         System.out.println("\nLa distancia es: "+p.calcularDistancia(p2));
-
 
     }
 }

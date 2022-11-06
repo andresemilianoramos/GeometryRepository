@@ -18,7 +18,7 @@ public class mainPolygon {
         Polygon point4 = new Polygon();
         point4.setX(7); point4.setY(8);
 
-        System.out.println("");
+        System.out.println();
        System.out.println( point + "-"+ point2 + "-"+ point3 + "-"+ point4 );
 
         System.out.println();
